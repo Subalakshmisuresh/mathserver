@@ -112,8 +112,8 @@ def triarea(request):
         context['b'] = b
         print('Area=',area)
     return render(request,'myapp/math.html',context)
-    ```
-    urls.py
+  ```   
+urls.py
     ```
     from django.contrib import admin
 from django.urls import path
